@@ -2,11 +2,24 @@ div{
     margin-left: 5%;
     margin-top: 15px;
 }
+
+body{
+    background-color: rgb(123, 122, 122);
+}
+
 button{
     margin-top: 15px;
     width: 60%;
     height: 35px;
     align-self: center;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 10%;
+}
+
+button:hover{
+    border: 2px solid rgb(255, 247, 0);
+    color: rgb(255, 247, 0);
+    background-color: black;
 }
 
 #container{
@@ -21,4 +34,9 @@ button{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: rgb(166, 163, 163);
+}
+
+#output{
+    font-size: 20px;
+    font-weight:bolder;
 }

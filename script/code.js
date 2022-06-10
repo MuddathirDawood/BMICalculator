@@ -35,10 +35,7 @@ btnDisplay.addEventListener('click',()=>{
                 category = 'Obese Class III';
                 break;
         }
-    } else {
-        
     }
-
-    document.getElementById('output').innerHTML = `BMI= ${BMI} kg/m²<br> ${category}`;
+    document.getElementById('output').innerHTML = `BMI= ${BMI} kg/m²<br>Your BMI class is ${category}`;
 })
 
