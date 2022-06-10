@@ -1,0 +1,24 @@
+div{
+    margin-left: 5%;
+    margin-top: 15px;
+}
+button{
+    margin-top: 15px;
+    width: 60%;
+    height: 35px;
+    align-self: center;
+}
+
+#container{
+    width: 420px;
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    border: 1px blue solid;
+    border-radius: 2%;
+    box-shadow: 0 0 10px black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(166, 163, 163);
+}
